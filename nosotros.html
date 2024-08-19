@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd store</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <!--este href sirve para que cada vez que le demos click al logo principal de la página nos devuelva al inicio de la misma-->
+        <img class="header__logo" src="img/logo.png" alt="Logotipo" />
+        <!--las etiquetas de imagen requieren un atributo obligatorio "alt" se conoce como texto alternativo,en caso de que las imagenes no carguen y ayuda al posicionamiento del sitio web para saber que es esa imagen.-->
+      </a>
+    </header>
+
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="index.html">Tienda</a>
+      <a
+        class="navegacion__enlace navegacion__enlace--activo"
+        href="nosotros.html"
+        >Nosotros</a
+      >
+    </nav>
+
+    <main class="contenedor">
+      <h1>Nosotros</h1>
+
+      <div class="nosotros">
+        <div class="nosotros__contenido">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec
+            magna fermentum magna rhoncus ullamcorper sed ut urna. Nulla
+            suscipit ut nulla quis lobortis. Aliquam erat volutpat. In dictum
+            dignissim sem in blandit. Cras blandit sit amet enim vitae
+            convallis. Suspendisse auctor diam neque, id volutpat lectus rutrum
+            eget. Aenean accumsan neque luctus tortor placerat, a pulvinar nibh
+            viverra. In convallis risus a erat vehicula feugiat. Maecenas at
+            tempus mi, id interdum dui. Aenean lectus mauris, eleifend nec mi a,
+            dignissim mattis diam. Sed mollis sapien quam, quis dapibus libero
+            mollis sed. Sed fermentum elit justo, at commodo libero vehicula
+            vel. Pellentesque tristique pharetra ornare. Cras non massa in orci
+            mattis pellentesque. Nam feugiat metus vel eros semper volutpat.
+            Morbi augue dui, mattis non porta eu, blandit ut nisl. Nam quis
+            lacus id nibh malesuada auctor. Curabitur est nibh, elementum in leo
+            interdum, luctus ullamcorper nisi. Sed et purus quis ipsum laoreet
+            bibendum. Duis at urna ac libero laoreet consequat ut id massa.
+          </p>
+        </div>
+
+        <img
+          class="nosotros__imagen producto"
+          src="img/nosotros.jpg"
+          alt="imagen nosotros"
+        />
+      </div>
+    </main>
+
+    <section class="contedor comprar">
+      <h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
+
+      <div class="bloques">
+        <div class="bloque">
+          <img
+            class="bloque__imagen"
+            src="img/icono_1.png"
+            alt="porque comprar"
+          />
+
+          <h3 class="bloque__titulo">El mejor precio</h3>
+          <p>
+            Curabitur est nibh, elementum in leo interdum, luctus ullamcorper
+            nisi.Curabitur est nibh, elementum in leo interdum, luctus
+            ullamcorper nisi.
+          </p>
+        </div>
+        <!--bloque-->
+
+        <div class="bloque">
+          <img
+            class="bloque__imagen"
+            src="img/icono_2.png"
+            alt="porque comprar"
+          />
+
+          <h3 class="bloque__titulo">Para devs</h3>
+          <p>
+            Curabitur est nibh, elementum in leo interdum, luctus ullamcorper
+            nisi.Curabitur est nibh, elementum in leo interdum, luctus
+            ullamcorper nisi.
+          </p>
+        </div>
+        <!--bloque-->
+
+        <div class="bloque">
+          <img
+            class="bloque__imagen"
+            src="img/icono_3.png"
+            alt="porque comprar"
+          />
+
+          <h3 class="bloque__titulo">Envío gratis</h3>
+          <p>
+            Curabitur est nibh, elementum in leo interdum, luctus ullamcorper
+            nisi.Curabitur est nibh, elementum in leo interdum, luctus
+            ullamcorper nisi.
+          </p>
+        </div>
+        <!--bloque-->
+
+        <div class="bloque">
+          <img
+            class="bloque__imagen"
+            src="img/icono_4.png"
+            alt="porque comprar"
+          />
+
+          <h3 class="bloque__titulo">La mejor calidad</h3>
+          <p>
+            Curabitur est nibh, elementum in leo interdum, luctus ullamcorper
+            nisi.Curabitur est nibh, elementum in leo interdum, luctus
+            ullamcorper nisi.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__texto">
+        Front End Store-Todos los derechos reservados, Desarrollado por Daniel
+        Famiglietti 2022
+      </p>
+    </footer>
+  </body>
+</html>
